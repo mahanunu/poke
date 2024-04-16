@@ -9,33 +9,31 @@
     <title>Pokédex</title>
 </head>
 <body>
+    
+    <div class="gameboy" id="GameBoy">
+  
+  <div class="screen-area">
     <main>
-
         <div class="pokemon_image">
             <img src="#" alt="pokemon" class="pokemon">
         </div>
-       
-           
+
+        
         <form class="form">
-      <input
+        <input
         type="search" class="search" placeholder="Nom ou Numéro" required/></form>
 
-        <div class="big_green_box">
+        <div class="pokeon_name">
             <h1 class="pokemon_name"></h1>
         </div>
-        <div class="big_black_box">
+        <div class="pokemon_number">
             <h1 class="pokemon_number"></h1>
         </div>
         <div class="buttons">
             <button class="button_prev">Précédant</button>
             <button class="button_next">Suivant</button>
         </div>
-
-        
     </main>
-    <div class="gameboy" id="GameBoy">
-  
-  <div class="screen-area">
     
     <div class="power">
       <div class="indicator">
@@ -47,7 +45,8 @@
       POWER
     </div>
     
-    <canvas class="display" id="mainCanvas"></canvas>
+    <canvas class="display" id="mainCanvas">
+    </canvas>
     
     <div class="label">
       <div class="title">GAME BOY</div>
